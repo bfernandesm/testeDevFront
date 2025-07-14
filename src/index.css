@@ -1,0 +1,105 @@
+@import "tailwindcss";
+@import "tailwindcss/preflight.css";
+
+
+@font-face {
+  font-family: 'Lato';
+  src: url('./assets/font/Lato/Lato-Regular') format('ttf');
+  font-weight: 400;
+  font-style: normal;
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+}
+
+.title-vitrine{
+  font-size: 2.188rem;
+  margin: 2.5rem 1.25px;
+}
+
+.product-vt{
+  padding: 10px;
+  cursor: pointer;
+}
+
+.title-vt{
+  font-size: 1rem;
+  height: 50px;
+}
+
+.text-vt{
+  margin: 10px 5px;
+}
+
+.price-vt{
+  color:#ffbb2f !important;
+  font-size: 1.563rem;
+}
+
+.buy-vt{
+  flex-direction: column !important;
+}
+
+.btn-buy-vt{
+  width: 100%;
+  background: #ffbb2f;
+  height: 30px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.swiper-button-prev:after, 
+.swiper-button-next:after{
+  font-size: 20px !important;
+  color:black !important;
+}
+
+.swiper-button-prev, 
+.swiper-button-next{
+  background-color: #ffbb2f;
+  border-radius: 100px;
+  height: 30px !important;
+  width: 30px !important;
+}
+
+.swiper-pagination{
+  bottom: 0px !important;
+}
+
+.vitrine .mySwiper{
+  padding: 30px 0 50px;
+}
+
+.swiper-pagination-bullet-active{
+  background-color: #ffbb2f !important;
+}
+
+.f-logo{
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.f-logo img{
+  filter: invert(76%) sepia(84%) saturate(498%) hue-rotate(330deg) brightness(99%) contrast(107%);
+}
+
+.f-logo span{
+  font-size: 1.875rem;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #ffbb2f;
+}
+
+.f-title{
+  font-size: 1.25rem;
+  margin-bottom: 0.625rem;
+}
+
+.c-title{
+  font-size: 1.875rem;
+  margin-bottom: 30px;
+  text-align: center;
+  display: block;
+}
